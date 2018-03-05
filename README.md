@@ -3,14 +3,14 @@
 API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React Native application.
 
 - Built with Node.js and Express
-- REST API with authentication scheme
+- Mongoose schema
 
 ## Express Router and Routes
 
 | Route           | HTTP Verb | Description                          |
 | --------------- | --------- | ------------------------------------ |
 | /api/hotels     | GET       | Get list of hotels                   |
-| /api/users/:id  | GET       | Get a single hotel                   |
+| /api/hotels/:id  | GET       | Get a single hotel                   |
 
 ## Getting Started
 
