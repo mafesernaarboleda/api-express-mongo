@@ -7,7 +7,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/YOUR_DATABASE_DEV',
+    uri: 'mongodb://test:test@ds015760.mlab.com:15760/almundo-test',
   },
 
   // Seed database on startup
