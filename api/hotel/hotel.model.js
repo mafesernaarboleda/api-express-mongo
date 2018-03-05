@@ -10,10 +10,10 @@ const HotelSchema = new mongoose.Schema({
   address: { type: String, uppercase: true },
   price: { type: Number, required: true },
   stars: { type: Number, required: true },
-  loc: { type: [Number], index: { type: '2dsphere', sparse: true } },
+  loc: { type: [Object], index: { type: '2dsphere', sparse: true } },
   phoneNumber: { type: String },
   about: { type: String, required: true },
-  pictures: { type: [String] },
+  pictures: { type: [Object] },
 }, { timestamps: true });
 
 module.exports = mongoose.model('Hotel', HotelSchema);
