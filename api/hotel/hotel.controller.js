@@ -41,7 +41,6 @@ function index(req, res) {
     .catch(handleError(res));
 }
 
-
 // Gets a single Customer from the DB
 function show(req, res) {
   return Hotel.findById(req.params.id).exec()
@@ -50,8 +49,20 @@ function show(req, res) {
     .catch(handleError(res));
 }
 
+// Get a list hotels by search
+function find(req, res) {
+  const { filter } = req.params;
+  const query = {
+    name: { $regex: filter, $options: 'i' },
+  };
+  return Hotel.find(query).exec()
+    .then(handleEntityNotFound(res))
+    .then(respondWithResult(res))
+    .catch(handleError(res));
+}
 
 module.exports = {
   index,
   show,
+  find,
 };

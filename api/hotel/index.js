@@ -10,5 +10,6 @@ const router = new Router();
 
 router.get('/', controller.index);
 router.get('/:id', controller.show);
+router.get('/search/:filter', controller.find);
 
 module.exports = router;
