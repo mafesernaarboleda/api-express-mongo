@@ -13,6 +13,13 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 | /api/hotels/:id  | GET       | Get a single hotel                   |
 | /api/hotels/search/:filter  | GET       | Get a list of hotels by search |
 
+## Tools used in this project
+* [NodeJS](https://nodejs.org/en/)
+* [ExpressJS](https://expressjs.com/)
+* [Mongoose](http://mongoosejs.com/)
+* [Bludbird](http://bluebirdjs.com/docs/getting-started.html)
+* [Bludbird](https://nodemon.io/)
+* [ESLint](https://github.com/eslint/eslint)
 
 ## Getting Started
 
