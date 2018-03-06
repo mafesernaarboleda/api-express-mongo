@@ -53,6 +53,9 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 
 4. Open browser `http://localhost:3000/api/hotels`.
 
+## Deployment
+
+It is used platform as a service (PaaS), for the deployment of the [API](https://almundotest.herokuapp.com/) using the HEROKU CLI and following the [guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app).
 
 ## Author
 
