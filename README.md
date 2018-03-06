@@ -18,7 +18,7 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 * [ExpressJS](https://expressjs.com/)
 * [Mongoose](http://mongoosejs.com/)
 * [Bludbird](http://bluebirdjs.com/docs/getting-started.html)
-* [Bludbird](https://nodemon.io/)
+* [Nodemon](https://nodemon.io/)
 * [ESLint](https://github.com/eslint/eslint)
 
 ## Getting Started
@@ -35,7 +35,7 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 
 2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running.
 
-3. Example document in collection `Holes`.
+3. Example document in collection `Hotels`.
 ```
 {
     "price": 349709,
