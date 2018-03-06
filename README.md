@@ -28,7 +28,7 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 
 2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running.
 
-3. Example document in colletion Holes.
+3. Example document in collection `Holes`.
 ```
 {
     "price": 349709,
