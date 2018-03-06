@@ -11,6 +11,8 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 | --------------- | --------- | ------------------------------------ |
 | /api/hotels     | GET       | Get list of hotels                   |
 | /api/hotels/:id  | GET       | Get a single hotel                   |
+| /api/hotels/search/:filter  | GET       | Get a list hotels by search |
+
 
 ## Getting Started
 
@@ -28,5 +30,5 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 
 3. Run `npm run dev` to start the development server. It should automatically open the client in your browser when ready.
 
-4. Open browser `http://localhost:3030/api/hotels`.
+4. Open browser `http://localhost:3000/api/hotels`.
 
