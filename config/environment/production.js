@@ -16,6 +16,6 @@ module.exports = {
         process.env.MONGOHQ_URL ||
         process.env.OPENSHIFT_MONGODB_DB_URL +
         process.env.OPENSHIFT_APP_NAME ||
-        'mongodb://test:test@ds015760.mlab.com:15760/almundo-test',
+        'localhost/almundo-dev',
   },
 };
