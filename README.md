@@ -11,7 +11,7 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 | --------------- | --------- | ------------------------------------ |
 | /api/hotels     | GET       | Get list of hotels                   |
 | /api/hotels/:id  | GET       | Get a single hotel                   |
-| /api/hotels/search/:filter  | GET       | Get a list hotels by search |
+| /api/hotels/search/:filter  | GET       | Get a list of hotels by search |
 
 
 ## Getting Started
