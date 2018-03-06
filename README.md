@@ -53,3 +53,14 @@ API of Hotels built with Node.JS, Express.JS and MongoDB to be used in a React N
 
 4. Open browser `http://localhost:3000/api/hotels`.
 
+
+## Author
+
+* **Maria Fernanda Serna Arboleda** - *FullStack JavaScript Developer* - [Github](https://github.com/mafesernaarboleda)
+
+See also the list of [contributors](https://github.com/mafesernaarboleda/api-express-mongo/contributors) who participated in this project.
+
+## License
+
+This project is licensed under MIT - see the [LICENSE](LICENSE) file for details
+
